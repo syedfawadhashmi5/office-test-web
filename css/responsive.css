@@ -1,0 +1,117 @@
+
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 296px) and (max-width: 480px) {
+    .intro-text {
+      background: rgba(0, 0, 0, 0.45);
+      padding: 20px 0;
+
+    }
+  .intro-text h2 {
+    font-size: 20px;
+}
+.intro-text p {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 10px 16px;
+  text-align: center;
+}
+.banner_section {
+  height: 67vh;
+}
+.Latest_Courses .title {
+  font-size: 20px;
+}
+.intro-text a {
+  padding: 8px 7px;
+  font-size: 11px;
+}
+.intro-text p {
+  margin-bottom: 13px;
+}
+.top_nav ul li {
+  padding: 8px;
+}
+.navbar-brand img {
+  width: 60px !important;
+  height: 60px !important;
+}
+.top_nav .social {
+  text-align: center;
+}
+.top_nav ul li:first-child {
+  border-left: none;
+}
+.top_nav ul li {
+  border-right: none;
+}
+.top_nav ul {
+  text-align: center;
+}
+.header_naber ul.navbar-nav {
+  position: absolute;
+  padding: 15px;
+  text-align: center;
+  z-index: 9999;
+  right: 0;
+  left: 0;
+  background: #000000;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.header_naber ul.navbar-nav li a {
+  padding: 10px;
+  color: #ffff !important;
+}
+.header_naber ul.navbar-nav li a:after {
+  position: absolute;
+  left: 93px;
+  right: 18px;
+  bottom: 0;
+  width: 23%;
+  height: 2px;
+  background-color: #df4a43;
+  transition: 0.5s;
+  content: "";
+  text-align: center;
+  z-index: 9999;
+  top: 40px;
+}
+.featured_area .feature_contain {
+  width: 100%;
+}
+.footer_area ul {
+  text-align: center;
+}
+.footer_area ul.social {
+  text-align: center;
+}
+.footer_area ul.tag_list {
+  text-align: center;
+}
+.footer_area {
+  text-align: center;
+}
+.footer_bottom_nav ul a {
+  font-size: 18px;
+  padding: 11px 7px;
+}
+.footer_bottom_nav ul {
+  text-align: left;
+}
+.footer_bottom_nav p {
+  font-size: 14px;
+}
+.footer_bottom_nav span {
+  font-size: 18px;
+}
+
+.footer_bottom_nav ul a {
+  font-size: 12px;
+}
+  }
